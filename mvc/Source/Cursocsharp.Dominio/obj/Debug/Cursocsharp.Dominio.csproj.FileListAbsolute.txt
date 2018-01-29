@@ -1,0 +1,6 @@
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\Cursocsharp.Dominio\bin\Debug\Cursocsharp.Dominio.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\Cursocsharp.Dominio\bin\Debug\Cursocsharp.Dominio.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\Cursocsharp.Dominio\obj\Debug\Cursocsharp.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\Cursocsharp.Dominio\obj\Debug\Cursocsharp.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\Cursocsharp.Dominio\obj\Debug\Cursocsharp.Dominio.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\Cursocsharp.Dominio\obj\Debug\Cursocsharp.Dominio.pdb

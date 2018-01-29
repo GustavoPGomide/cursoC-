@@ -1,0 +1,8 @@
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Repository\bin\Debug\mvc.Repository.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Repository\bin\Debug\mvc.Repository.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Repository\bin\Debug\Cursocsharp.Dominio.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Repository\bin\Debug\Cursocsharp.Dominio.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Repository\obj\Debug\mvc.Repository.csprojResolveAssemblyReference.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Repository\obj\Debug\mvc.Repository.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Repository\obj\Debug\mvc.Repository.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Repository\obj\Debug\mvc.Repository.pdb
