@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace mvc.Repository.DataBese
 {
-    class conexao
+    public class Conexao
     {
         public readonly SqlConnection Connection;
         public SqlTransaction Transaction;

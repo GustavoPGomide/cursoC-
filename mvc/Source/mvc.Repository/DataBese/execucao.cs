@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace mvc.Repository.DataBese
 {
-    class execucao
+    public class Execucao
     {
-        private readonly conexao _conexao;
+        private readonly Conexao _conexao;
         private SqlCommand _command;
 
-        public execucao(conexao conexao)
+        public Execucao(Conexao conexao)
         {
             _conexao = conexao;
         }
