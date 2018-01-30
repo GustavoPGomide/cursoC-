@@ -1,22 +1,26 @@
-﻿using System;
+﻿using mvc.Application.Applications;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Routing;
 
 namespace mvc.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controllers
     {
-        public ActionResult Index()
+      private readonly ProdutoApplication _produtoApplication = new ProdutoApplication();
+
+        public ActionrResult ListarProduto()
         {
-            return View();
+            var response -_produtoApplication.GetProdutos();
+            
+            if (response_Status !=HttpStatusCodeResult.ok)
+                response. Status - (int)HttpStatusCodeResult.BadRequest
+                Response.TrySkiptisCustomErros = true;
+            return ContentResult (response )
+
         }
-        public ActionResult tese()
-        {
-            return View();
-        }
-      
-        
     }
 }

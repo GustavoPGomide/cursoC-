@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc.Repository", "mvc.Repos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cursocsharp.Dominio", "Cursocsharp.Dominio\Cursocsharp.Dominio.csproj", "{E84B52DF-11B3-4CBC-AB76-B58989FE98CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc.Application", "mvc.Application\mvc.Application.csproj", "{856B7A1E-FA76-49EE-9CBA-6DE770D10CC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{E84B52DF-11B3-4CBC-AB76-B58989FE98CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E84B52DF-11B3-4CBC-AB76-B58989FE98CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E84B52DF-11B3-4CBC-AB76-B58989FE98CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856B7A1E-FA76-49EE-9CBA-6DE770D10CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856B7A1E-FA76-49EE-9CBA-6DE770D10CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856B7A1E-FA76-49EE-9CBA-6DE770D10CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856B7A1E-FA76-49EE-9CBA-6DE770D10CC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{AF0B34A8-5070-47E0-9BE8-C0040DD2EA1F} = {38687093-CF6C-4C57-9E93-AF37D2F45232}
 		{E3D638F0-1951-4B5B-81CD-EE43050DC962} = {855DFBA1-B2D4-4567-8230-00874C7FE7F6}
 		{E84B52DF-11B3-4CBC-AB76-B58989FE98CD} = {5609A300-29DF-44B8-923B-8A9D36BB3CEB}
+		{856B7A1E-FA76-49EE-9CBA-6DE770D10CC5} = {508D35FF-FD0B-4FEC-99A9-CC707E76196B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2AA35E0-8DA0-4F72-A628-7C942BAB2DA5}

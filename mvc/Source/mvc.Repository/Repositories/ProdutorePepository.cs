@@ -27,37 +27,12 @@ namespace mvc.Repository.Repositories
                         CodigoProduto = reader.ReadAsInt("CodigoProduto"),
                         Nome = reader.ReadAsString("Nome"),
                         Preco = reader.ReadAsDecimal("Preco"),
-                        Estoque = reader.ReadAsInt ("Estoque")
+                        Estoque = reader.ReadAsShort ("Estoque")
                     });
 
             }
 
             return Produtos;
-        }
-
-        public object EditaProduto(Produto produto)
-        {
-            throw new NotImplementedException();
-        }
-
-        public object CadastraProduto(Produto produto)
-        {
-            throw new NotImplementedException();
-        }
-
-        public object DeletaProduto(int codigoProduto)
-        {
-            throw new NotImplementedException();
-        }
-
-        public object ListaProdutos()
-        {
-            throw new NotImplementedException();
-        }
-
-        public object SelecionaProduto(int codigoProduto)
-        {
-            throw new NotImplementedException();
         }
     }
 }

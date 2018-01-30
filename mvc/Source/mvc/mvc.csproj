@@ -146,6 +146,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="ProdutoController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -189,7 +190,12 @@
     <Content Include="LIB\fonte\roboto\Roboto-Thin.woff" />
     <Content Include="LIB\fonte\roboto\Roboto-Thin.woff2" />
     <None Include="packages.config" />
-    <Content Include="Views\Home\tese.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mvc.Application\mvc.Application.csproj">
+      <Project>{856B7A1E-FA76-49EE-9CBA-6DE770D10CC5}</Project>
+      <Name>mvc.Application</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

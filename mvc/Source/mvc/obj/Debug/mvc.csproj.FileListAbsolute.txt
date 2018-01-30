@@ -47,3 +47,7 @@ C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\mvc\obj\Debug\mvc.csprojResolv
 C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\mvc\obj\Debug\mvc.csproj.CoreCompileInputs.cache
 C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\mvc\obj\Debug\mvc.dll
 C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\mvc\obj\Debug\mvc.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\obj\Debug\mvc.csprojResolveAssemblyReference.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\obj\Debug\mvc.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\obj\Debug\mvc.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\obj\Debug\mvc.pdb
