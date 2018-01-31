@@ -1,0 +1,32 @@
+﻿@model IEnumerable<mvc.Application.Models.ProdutoModel>
+@{ Layout = null;}
+
+<table class="striped" id="gridProdutos">
+    <thead>
+        <tr>
+            <th>Codigo</th>
+            <th>Nome</th>
+            <th>Valor R$</th>
+            <th>Estoque</th>
+            @*<th>
+                <a class="btn-floating waves-effect waves-lingred tootipped"
+                   stri="float:ringt" date-position="left"
+                   date-dalay="Se" data-tooltip"Novo"href="#!">
+
+                </a>
+            </th>*@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.CodigoProduto</td>
+                <td>@produto.Nome</td>
+                <td>@produto.Preco</td>
+                <td>@produto.Estoque</td>
+            </tr>
+
+        }
+    </tbody>
+</table>

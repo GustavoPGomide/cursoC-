@@ -11,10 +11,19 @@ namespace mvc.Api.Controllers
     {
         private readonly ProdutorePepository _produtoRepository = new ProdutorePepository();
 
-       [HttpGet,Route("lista/produto")]
-        public IHttpActionResult GetProduto()
+       [HttpGet,Route("listaProdutos")]
+        public IHttpActionResult GetProdutos()
         {
-            return Ok(_produtoRepository.GetProdutos());
+            try
+            {
+                return Ok(_produtoRepository.GetProdutos());
+
+            }
+            catch
+            {
+
+                return BadRequest("Erro ao listar produtos");
+            }
         }
     }
 }

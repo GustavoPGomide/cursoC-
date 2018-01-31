@@ -1,0 +1,8 @@
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Application\obj\Debug\mvc.Application.csprojResolveAssemblyReference.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Application\obj\Debug\mvc.Application.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Application\bin\Debug\mvc.Application.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Application\bin\Debug\mvc.Application.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Application\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Application\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Application\obj\Debug\mvc.Application.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc.Application\obj\Debug\mvc.Application.pdb
