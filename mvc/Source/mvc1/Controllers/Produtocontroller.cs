@@ -23,7 +23,28 @@ namespace mvc.Api.Controllers
             {
 
                 return BadRequest("Erro ao listar produtos");
+
             }
+         
+        }
+        [HttpPost, Route("cadastraProduto")]
+        public IHttpActionResult PostProduto(Produto produto)
+        {
+            try
+            {
+                var retorno = _produtoRepository.CadrastraProduto(produto);
+                if (retorno != null)
+                {
+                    return BadRequest(retorno);
+                }
+                return Ok("Produtos fo cadastrado com sucesso!");
+            }
+            catch
+            {
+                return BadRequest();
+            }
+
+            }
+
         }
     }
-}

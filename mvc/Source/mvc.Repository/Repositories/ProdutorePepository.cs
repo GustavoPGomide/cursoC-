@@ -34,5 +34,19 @@ namespace mvc.Repository.Repositories
 
             return Produtos;
         }
+        public string CadrastraProduto(Produto produto)
+        {
+            ExecuteProcedure("SP_InsProduto");
+            AddParameter("@Nome",produto.Nome);
+            AddParameter("@Preco",produto.Preco);
+            AddParameter("@Estoque",produto.Estoque);
+
+            var retorno = ExecuteNonQueryWithReturn();
+
+            if (retorno == 1)
+                return "Erro ao inserir o produto";
+            return null;
+
+        }
     }
 }

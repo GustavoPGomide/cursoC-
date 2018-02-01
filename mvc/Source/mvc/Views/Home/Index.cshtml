@@ -1,7 +1,7 @@
 ﻿<link href="~/Lib/Css/Home.css" rel="stylesheet" type="text/css">
 
 <!--modal de cadastro de clientes-->
-
+@Html.Partial("../Produto/FomularioCadastro")
 
 <!--grid-->
 <div class="container">
@@ -47,6 +47,7 @@
     }
 
     function Error(xhr) {
-        Materialize.toast(xhr.responseText, 5000);
+        Materialize.toast(xhr.responseText, 4000);
     }
+    $('.modal').modal();
 </script>

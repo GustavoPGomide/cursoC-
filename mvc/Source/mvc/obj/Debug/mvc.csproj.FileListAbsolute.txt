@@ -98,3 +98,4 @@ C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\bin\pt-br\System.We
 C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\bin\pt-br\System.Web.WebPages.resources.dll
 C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\mvc\mvc\Source\mvc\bin\System.Net.Http.Formatting.dll
