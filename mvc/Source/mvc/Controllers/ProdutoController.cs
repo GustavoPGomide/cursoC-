@@ -26,18 +26,37 @@ namespace mvc
        
 
         public ActionResult CadastrarProduto(ProdutoModel produto)
-        //{
+        {
 
             var response = _produtoApplication.PostProduto(produto);
             if (response.Status != HttpStatusCode.OK)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 Response.TrySkipIisCustomErrors = true;
-                return Content(response.ContentAsString);
+                ViewBag.Erro = response.Content;
+                return View("../Home/Index");                        
             }
 
-            return Content(response.Content);
+            ViewBag.Resultado = response.Content;
+            return View("../Home/Index");                                                           
         }
-       
+
+        public ActionResult DeletarProduto(int codigoProduto)
+        {
+
+            var response = _produtoApplication.deletaProduto(codigoProduto);
+            if (response.Status != HttpStatusCode.OK)
+            {
+                Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                Response.TrySkipIisCustomErrors = true;
+                ViewBag.Erro = response.Content;
+                return View("../Home/Index");
+            }
+
+            ViewBag.Resultado = response.Content;
+            return View("../Home/Index");
+        }
+
+
     }
 }

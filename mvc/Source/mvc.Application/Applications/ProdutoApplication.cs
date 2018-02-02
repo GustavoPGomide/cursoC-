@@ -30,5 +30,13 @@ namespace mvc.Application.Applications
                 return new Response<string>(response.Content.ReadAsStringAsync().Result, response.StatusCode);
             }
         }
+        public Response<string> deletaProduto(int codigoProduto)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = client.DeleteAsync($"{_enderecoApi}/Deletaproduto/{codigoProduto}").Result;
+                return new Response<string>(response.Content.ReadAsStringAsync().Result, response.StatusCode);
+            }
+        }
     }
 }

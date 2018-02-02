@@ -45,7 +45,7 @@
     <Compile Include="DataBese\Execucao.cs" />
     <Compile Include="DataBese\SQLExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\ProdutorePepository.cs" />
+    <Compile Include="Repositories\ProdutoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cursocsharp.Dominio\Cursocsharp.Dominio.csproj">

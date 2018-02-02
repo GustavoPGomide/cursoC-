@@ -9,7 +9,7 @@ namespace mvc.Api.Controllers
     [RoutePrefix("api/produto")]
     public class ProdutoController : ApiController
     {
-        private readonly ProdutorePepository _produtoRepository = new ProdutorePepository();
+        private readonly ProdutoRepository _produtoRepository = new ProdutoRepository();
 
        [HttpGet,Route("listaProdutos")]
         public IHttpActionResult GetProdutos()
@@ -46,5 +46,25 @@ namespace mvc.Api.Controllers
 
             }
 
+        [HttpDelete, Route("Deletaproduto/{codigoProduto}")]
+        public IHttpActionResult DeletarProduto(int codigoProduto)
+        {
+            try
+            {
+                var resposta = _produtoRepository.DeletarProduto(codigoProduto);
+
+                if (resposta != null)
+                    return BadRequest(resposta);
+
+                return Ok("Prosduto foi deletado com sucesso");
+
+            }
+            catch
+            {
+                return BadRequest("Algo de errado");
+            }
+
         }
     }
+}
+

@@ -33,6 +33,15 @@
 
 <script>
 
+    var mensagemSucesso = "@ViewBag.Resultado";
+    var mensagenErro = "@ViewBag.Erro";
+
+    if (mensagemSucesso != "") 
+        Materialize.toast(mensagemSucesso, 4000);
+
+    if (mensagenErro != "") 
+        Materialize.toast(mensagenErro, 4000);
+
     //Trazendo a lista de produtos
     $.get('@Url.Action("ListarProdutos", "Produto")')
         .done(function (data) {
